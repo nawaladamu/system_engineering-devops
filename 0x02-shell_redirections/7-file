@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > $(echo 'XCoXJ0Jlc3QgU2Nob29sIydcKlxkXD8qKioqKio6KQo=' | base64 -d)
+echo "Best School" > '*\\'"Best School"'\\*$\?\*\*\*\*\*:'"\\)"
