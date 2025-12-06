@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script loops 1 to 20, using case to display superstitious messages for 4, 9, and 17.
+n=1
+while [ $n -le 20 ]; do
+	echo "$n"
+	case $n in
+		4) echo "bad luck from China" ;;
+		9) echo "bad luck from Japan" ;;
+		17) echo "bad luck from Italy" ;;
+	esac
+	n=$((n + 1))
+done
